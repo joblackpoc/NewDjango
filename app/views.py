@@ -15,3 +15,6 @@ def KeyInput(request):
             return redirect('home')
 
     return render(request, 'app/keyinput.html', {'form':form})
+
+def Chart(request):
+    return render(request, 'app/chart.html')
